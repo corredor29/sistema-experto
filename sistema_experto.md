@@ -175,11 +175,28 @@ Donde:
 # Todas las rutas
 
 
-1. **A1 → SP1 → SF → CLASE**
-2. **A2 → SP2 → SF → CLASE**
-3. **A3 → SP3 → SF → CLASE**
-4. **A4 → SP4 → SF → CLASE**
-5. **A5 → SP5 → SF → CLASE**
-6. **(SP1 + SP2 + SP3 + SP4 + SP5) → SF → CLASE**
-7. **SF → CLASE FINAL**
-
+                A1 (Inglés)
+                     │
+                     ▼
+                   SP1
+                     │
+                     ├───────────┐
+                     │           │
+                A2 (SER)         │
+                     │           │
+                     ▼           │
+                   SP2           │
+                     │           │
+                     ├───────────┤
+                     │           │
+             A3 (Software)       │
+                     │           │
+                     ▼           │
+                   SP3           │
+                     │           │
+                     └──────┬────┘
+                            ▼
+                         SF (Score Final)
+                            │
+                            ▼
+                        q (Clase)
